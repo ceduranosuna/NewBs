@@ -1,0 +1,513 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=57768.8 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01  -3.45455e+04
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=53981.8 FROM MIGRAD    STATUS=CONVERGED      16 CALLS          17 TOTAL
+                     EDM=5.08751e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           7.12529e-01   2.28314e-03   3.72939e-04   9.65344e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.213e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=53981.8 FROM HESSE     STATUS=OK              5 CALLS          22 TOTAL
+                     EDM=5.08334e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           7.12529e-01   2.28314e-03   7.45878e-05   2.14162e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  5.213e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=109965 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01  -9.80641e+04
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=94172 FROM MIGRAD    STATUS=CONVERGED      18 CALLS          19 TOTAL
+                     EDM=5.76243e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           8.03142e-01   1.47196e-03   3.22489e-04   4.91444e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.167e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=94172 FROM HESSE     STATUS=OK              5 CALLS          24 TOTAL
+                     EDM=5.75961e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           8.03142e-01   1.47196e-03   6.44978e-05   3.07988e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.167e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=263864 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01  -1.10723e+05
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=255208 FROM MIGRAD    STATUS=CONVERGED      18 CALLS          19 TOTAL
+                     EDM=1.55771e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           6.53616e-01   1.12705e-03   3.97087e-04   1.09425e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.270e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=255208 FROM HESSE     STATUS=OK              5 CALLS          24 TOTAL
+                     EDM=1.55407e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           6.53616e-01   1.12705e-03   7.94175e-05   1.54227e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.270e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=105291 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01  -7.72472e+03
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=105181 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=7.22897e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.28432e-01   1.91295e-03   4.28572e-04  -1.40494e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.659e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=105181 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=7.24499e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           5.28432e-01   1.91295e-03   8.57143e-05   2.84357e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.659e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=222713 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01   2.52102e+04
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=222143 FROM MIGRAD    STATUS=CONVERGED      17 CALLS          18 TOTAL
+                     EDM=1.39118e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           4.54674e-01   1.34094e-03   4.36881e-04   2.77866e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.798e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=222143 FROM HESSE     STATUS=OK              5 CALLS          23 TOTAL
+                     EDM=1.39195e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           4.54674e-01   1.34094e-03   8.73763e-05  -4.53412e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  1.798e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=108974 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01   2.63226e+04
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=107672 FROM MIGRAD    STATUS=CONVERGED      15 CALLS          16 TOTAL
+                     EDM=1.82126e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           4.01101e-01   1.92434e-03   4.38348e-04  -2.20683e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.703e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=107672 FROM HESSE     STATUS=OK              5 CALLS          21 TOTAL
+                     EDM=1.82096e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           4.01101e-01   1.92434e-03   8.76695e-05  -9.90614e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  3.703e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=139849 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01   4.32689e+04
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=137056 FROM MIGRAD    STATUS=CONVERGED      20 CALLS          21 TOTAL
+                     EDM=1.3207e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           3.71176e-01   1.69969e-03   4.38159e-04   2.12030e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.889e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=137056 FROM HESSE     STATUS=OK              5 CALLS          26 TOTAL
+                     EDM=1.32308e-09    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           3.71176e-01   1.69969e-03   1.75264e-05  -1.29183e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.889e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 163714 out of range events
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+ **********
+ **   13 **MIGRAD         500           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ FCN=151809 FROM MIGRAD    STATUS=INITIATE        4 CALLS           5 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           5.00000e-01   2.00000e-01   2.01358e-01   5.66343e+04
+                               ERR DEF= 0.5
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=147346 FROM MIGRAD    STATUS=CONVERGED      20 CALLS          21 TOTAL
+                     EDM=2.0131e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fl           3.43164e-01   1.62320e-03   4.35624e-04   8.63279e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.635e-06 
+ **********
+ **   18 **HESSE         500
+ **********
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+[#0] ERROR:InputArguments -- f: this PDF does not support extended maximum likelihood
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=147346 FROM HESSE     STATUS=OK              5 CALLS          26 TOTAL
+                     EDM=2.01419e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fl           3.43164e-01   1.62320e-03   1.74250e-05  -1.57486e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  1    ERR DEF=0.5
+  2.635e-06 
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(f_Int[genCosThetaK]) using numeric integrator RooIntegrator1D to calculate Int(genCosThetaK)
+yfl [0]=0.7125 +- 0.0023
+yfl [1]=0.8031 +- 0.0015
+yfl [2]=0.6536 +- 0.0011
+yfl [3]=0.5284 +- 0.0019
+yfl [4]=0.4547 +- 0.0013
+yfl [5]=0.4011 +- 0.0019
+yfl [6]=0.3712 +- 0.0017
+yfl [7]=0.3432 +- 0.0016
+2000000 entries processed.

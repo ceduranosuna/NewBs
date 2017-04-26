@@ -1,0 +1,22 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+yafb[0]=-0.1600 +- 0.000432
+yfl [0]=0.7050 +- 0.000565
+yafb[1]=-0.0660 +- 0.000284
+yfl [1]=0.7910 +- 0.000410
+yafb[2]=0.1820 +- 0.000224
+yfl [2]=0.6490 +- 0.000273
+yafb[3]=0.3170 +- 0.000390
+yfl [3]=0.5240 +- 0.000428
+yafb[4]=0.3740 +- 0.000286
+yfl [4]=0.4540 +- 0.000296
+yafb[5]=0.4120 +- 0.000419
+yfl [5]=0.3990 +- 0.000413
+yafb[6]=0.4210 +- 0.000393
+yfl [6]=0.3690 +- 0.000367
+yafb[7]=0.3760 +- 0.420000
+yfl [7]=0.3410 +- 0.000359
+2000000 entries processed.

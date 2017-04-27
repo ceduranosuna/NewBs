@@ -14,16 +14,16 @@ all: sel fig fit
 tools.o: tools.cc tools.h 
 	g++ $(TOOLSFLAGS)  $(ROOFITLIBS) $(ROOTFLAGS) $< 
 
-sel: SingleBuToKstarMuMuSelector.cc 
+sel: SingleBsToPhiMuMuSelector.cc 
 	g++ $(SELECTORFLAGS) $< -o $@
 
-fig: SingleBuToKstarMuMuFigures.cc tools.o 
+fig: SingleBsToPhiMuMuFigures.cc tools.o 
 	g++ $(FIGURESFLAGS) $^ -o $@
 
-fit: SingleBuToKstarMuMuFitters.cc tools.o 
+fit: SingleBsToPhiMuMuFitters.cc tools.o 
 	g++ -g $(FITFLAGS) $^ -o $@	
 
-sel2011: SingleBdToKstarMuMuSelector_xCheck2011.cc
+sel2011: SingleBsToPhiMuMuSelector_xCheck2011.cc
 	g++ ${SELECTORFLAGS} $< -o $@
 
 test: testMinuitFitter.cc

@@ -1,5 +1,5 @@
-#define SingleBdToKstarMuMuSelector_xCheck2011_cxx
-// The class definition in SingleBdToKstarMuMuSelector_xCheck2011.h has been generated automatically
+#define SingleBsToPhiMuMuSelector_xCheck2011_cxx
+// The class definition in SingleBsToPhiMuMuSelector_xCheck2011.h has been generated automatically
 // by the ROOT utility TTree::MakeSelector(). This class is derived
 // from the ROOT class TSelector. For more information on the TSelector
 // framework see $ROOTSYS/README/README.SELECTOR or the ROOT User Manual.
@@ -18,23 +18,23 @@
 //
 // To use this file, try the following session on your Tree T:
 //
-// Root > T->Process("SingleBdToKstarMuMuSelector_xCheck2011.C")
-// Root > T->Process("SingleBdToKstarMuMuSelector_xCheck2011.C","some options")
-// Root > T->Process("SingleBdToKstarMuMuSelector_xCheck2011.C+")
+// Root > T->Process("SingleBsToPhiMuMuSelector_xCheck2011.C")
+// Root > T->Process("SingleBsToPhiMuMuSelector_xCheck2011.C","some options")
+// Root > T->Process("SingleBsTophiMuMuSelector_xCheck2011.C+")
 //
 
 #include <iostream>
 #include <sstream>
 #include <map>
-#include "SingleBdToKstarMuMuSelector_xCheck2011.h"
+#include "SingleBsToPhiMuMuSelector_xCheck2011.h"
 #include <TH2.h>
 #include <TStyle.h>
 #include <TProof.h>
 #include <TLorentzVector.h>
 
 // Global Constants
-const double KSTAR_MASS = 0.89166; // GeV
-const double KSTAR_WIDTH = 0.0508; // GeV 
+const double Phi_MASS = 0.101944; // GeV
+const double Phi_WIDTH = 0.0508; // GeV 
 const double MUON_MASS = 0.10565837;
 const double KAON_MASS = 0.493677;
 const double PION_MASS = 0.13957018;
@@ -50,7 +50,7 @@ TTree *tree_;
 int    Nb          = 0;
 double Mumumass    = 0;
 double Mumumasserr = 0;
-double Kstarmass   = 0;
+double Phimass   = 0;
 double Trkpt       = 0;
 double Trkdcasigbs = 0;
 
